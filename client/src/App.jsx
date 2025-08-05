@@ -12,7 +12,7 @@ import { useAuth } from "./Context/AuthProvider";
 
 function App() {
   const [authuser, setauthuser] = useAuth();
-  console.log(authuser);
+  // console.log(authuser);
   return (
     <Routes>
       <Route path="/" element={<Home />} />
