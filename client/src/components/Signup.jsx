@@ -4,7 +4,7 @@ import { useForm } from "react-hook-form";
 import { LuStethoscope } from "react-icons/lu";
 import { Link, useNavigate } from "react-router";
 import { serverUrl } from "../main";
-import { useAuth } from "../Context/Authprovider";
+import { useAuth } from "../Context/AuthProvider";
 import { toast } from "react-toastify";
 const Signup = () => {
   const [loading, setloading] = useState(false);
