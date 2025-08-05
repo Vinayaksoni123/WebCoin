@@ -8,7 +8,7 @@ import Testimonial from "./Pages/Testimonial";
 import Benefits from "./Pages/Benefits";
 import Signup from "./components/Signup";
 import Login from "./components/Login";
-import { useAuth } from "./Context/Authprovider";
+import { useAuth } from "./Context/AuthProvider";
 
 function App() {
   const [authuser, setauthuser] = useAuth();
