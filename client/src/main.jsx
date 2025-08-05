@@ -5,7 +5,7 @@ import App from "./App.jsx";
 import { AuthProvider } from "./Context/Authprovider.jsx";
 import { ToastContainer } from "react-toastify";
 import { BrowserRouter } from "react-router";
-export const serverUrl = "http://localhost:3000";
+export const serverUrl = "https://webcoin-7yl6.onrender.com";
 
 createRoot(document.getElementById("root")).render(
   <BrowserRouter>
