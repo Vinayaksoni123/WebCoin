@@ -1,6 +1,6 @@
 import { Link } from "react-router";
 import axios from "axios";
-import { useAuth } from "../Context/Authprovider";
+import { useAuth } from "../Context/AuthProvider";
 import { serverUrl } from "../main";
 import { toast } from "react-toastify";
 import Cookies from "js-cookie";
